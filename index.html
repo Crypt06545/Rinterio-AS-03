@@ -43,7 +43,7 @@
               <div class="space-y-5">
                 <div class="flex justify-center lg:justify-start">
                   <h3
-                    class="text-slate-600 font-bold text-sm bg-white rounded-3xl w-1/3 text-center py-2"
+                    class="text-slate-600 font-bold text-sm bg-white rounded-3xl text-center p-2 lg:p-3"
                   >
                     <i class="fa-solid fa-arrow-right m-1"></i>About us
                   </h3>
@@ -133,7 +133,7 @@
         <!-- work process start -->
         <div class="text-center space-y-2 mt-32">
           <h3
-            class="text-slate-600 font-extrabold bg-white rounded-3xl mx-auto lg:w-[20%] w-[50%] p-3"
+            class="text-slate-600 font-extrabold bg-white rounded-3xl mx-auto lg:w-[20%] w-[55%] lg:p-3 p-2"
           >
             <i class="fa-solid fa-arrow-right m-1"></i>How it Works
           </h3>
@@ -190,7 +190,7 @@
       <section class="lg:p-28 p-6 lg:bg-white bg-slate-100">
         <div class="text-center space-y-2 mt-5">
           <h3
-            class="text-slate-600 font-extrabold bg-lime-100 rounded-3xl mx-auto lg:w-[25%] p-3"
+            class="text-slate-600 font-extrabold bg-lime-100 rounded-3xl mx-auto lg:w-[25%] p-2 lg:p-3"
           >
             <i class="fa-solid fa-arrow-right m-1"></i>Explore our Latest works
           </h3>
@@ -204,14 +204,14 @@
         </div>
 
         <!-- image projects  -->
-        <div class="mt-4 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-4 gap-3">
+        <div class="mt-4 grid grid-cols-4 lg:grid-cols-9 gap-3">
           <div
-            class="col-span-4 lg:col-span-3 p-4 lg:border-2 rounded-2xl lg:flex justify-between gap-2 bg-white"
+            class="col-span-4 lg:col-span-6 p-4 lg:border-2 rounded-2xl lg:flex justify-between gap-2 bg-white"
           >
             <div class="flex justify-center">
-              <img src="./assets/img1.png" alt="" />
+              <img class="w-96" src="./assets/img1.png" alt="" />
             </div>
-            <div class="space-y-1">
+            <div class="space-y-5">
               <h3 class="text-[#494949] font-extrabold text-xl">Commercial</h3>
               <p class="text-[#737373] font-semibold text-sm">
                 The barn house captivates with its blend of rustic charm and`
@@ -232,21 +232,21 @@
           </div>
 
           <div
-            class="col-span-3 lg:col-span-1 p-4 lg:border-2 rounded-2xl bg-white"
+            class="col-span-4 lg:col-span-3 p-4 lg:border-2 rounded-2xl bg-white"
           >
-            <img src="./assets/img2.png" alt="" />
+            <img class="w-96" src="./assets/img2.png" alt="" />
           </div>
           <div
-            class="col-span-3 lg:col-span-1 p-4 lg:border-2 rounded-2xl bg-white"
+            class="col-span-4 lg:col-span-2 p-4 lg:border-2 rounded-2xl bg-white"
           >
-            <img src="./assets/img3.png" alt="" />
+            <img class="w-96" src="./assets/img3.png" alt="" />
           </div>
 
           <div
-            class="col-span-3 lg:col-span-2 p-4 lg:border-2 rounded-2xl lg:flex justify-between gap-4 bg-white"
+            class="col-span-4 lg:col-span-5 p-4 lg:border-2 rounded-2xl lg:flex justify-between gap-4 bg-white"
           >
             <div class="flex justify-center">
-              <img src="./assets/img4.png" alt="" />
+              <img class="w-96" src="./assets/img4.png" alt="" />
             </div>
             <div class="space-y-3">
               <h3 class="text-[#494949] font-extrabold text-xl">Commercial</h3>
@@ -267,28 +267,69 @@
             </div>
           </div>
           <div
-            class="col-span-3 lg:col-span-1 p-4 lg:border-2 rounded-2xl bg-white"
+            class="col-span-4 lg:col-span-2 p-4 lg:border-2 rounded-2xl bg-white"
           >
-            <img class="" src="./assets/img5.png" alt="" />
+            <img class="w-96" src="./assets/img5.png" alt="" />
           </div>
         </div>
       </section>
 
       <!-- from section  -->
-      <!-- <section class="lg:p-28 p-6 bg-u">
-        <div class="text-center space-y-2 mt-32">
+      <section
+        class="lg:p-28 lg:w-[99%] m-auto p-6 bg-[url('./assets/bg.jpg')] bg-cover bg-center bg-no-repeat"
+      >
+        <div class="text-center space-y-2">
           <h3
-            class="text-slate-600 font-extrabold bg-white rounded-3xl mx-auto lg:w-[20%] w-[50%] p-3"
+            class="text-slate-950 font-bold text-sm lg:font-extrabold bg-lime-100 rounded-3xl mx-auto lg:w-[20%] w-[55%] p-1 lg:p-3 opacity-60"
           >
-            <i class="fa-solid fa-arrow-right m-1"></i>How it Works
+            <i class="fa-solid fa-arrow-right m-1"></i>Let’s Connect
           </h3>
-          <h1 class="font-extrabold text-2xl lg:text-4xl">Our Works Process</h1>
+          <h1 class="font-extrabold text-2xl lg:text-4xl">
+            Let’s Discuss Next Project
+          </h1>
           <p class="lg:w-[65%] mx-auto text-[#494949]">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
         </div>
-      </section> -->
+        <div class="mt-8"">
+          <form class="grid gap-2 lg:grid-cols-2">
+            <!-- First Name -->
+            <input
+              type="text"
+              placeholder="First Name*"
+              class="p-4 rounded-[64px] border border-gray-200 outline-none "
+            />
+            
+            <!-- Last Name -->
+            <input
+              type="text"
+              placeholder="Last Name*"
+              class="p-4 rounded-[64px] border border-gray-200 outline-none"
+            />
+            
+            <!-- Phone Number -->
+            <input
+              type="text"
+              placeholder="Phone Number*"
+              class="p-4 rounded-[64px] border border-gray-200 outline-none"
+            />
+            
+            <!-- Email Address -->
+            <input
+              type="email"
+              placeholder="Email Number*"
+              class="p-4 rounded-[64px] border border-gray-200 outline-none"
+            />
+            
+            <!-- Message Box - Spans two columns -->
+            <textarea
+              placeholder="Write your message here"
+              class="p-4 rounded-3xl border border-gray-200 outline-none lg:col-span-2 h-40"
+            ></textarea>
+          </form>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
