@@ -30,9 +30,40 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <!-- <header class="lg:w-4/5 border-2 mx-auto bg-slate-100">
-      <nav></nav>
-    </header> -->
+    <header class="lg:w-[90%] border-2 mx-auto bg-slate-100">
+      <nav>
+        <div class="hero bg-base-200 min-h-screen">
+          <div class="hero-content text-center">
+            <div class="">
+              <div class="flex justify-center items-center">
+                <img src="./assets/banner.png" alt="">
+              </div>
+              <h1 class="font-extrabold text-3xl lg:text-5xl mt-4">
+                A barn house of this design has a striking appearance
+              </h1>
+              <p class="w-[80%] mx-auto text-[#494949] font-medium mt-4">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents, and large windows that flood the space with natural
+                light.
+              </p>
+              <div
+                class="flex justify-center items-center gap-3 w-[100%] lg:w-[20%] mx-auto bg-lime-200 border-2 border-[#ABEF5F] rounded-full px-3 py-2 mt-4"
+              >
+                <button class="text-xl font-bold text-black">
+                  View Details
+                </button>
+                <div
+                  class="flex items-center justify-center w-7 h-7 rounded-full bg-[#ABEF5F]"
+                >
+                  <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main class="lg:w-[90%] md:w-[90%] border-2 mx-auto">
       <!-- about section  -->
       <section class="lg:p-28 p-6 bg-slate-100">
@@ -340,6 +371,52 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer
+      class="footer footer-center bg-[#1C1C1C] text-primary-content border-t-[#F4F4F4] border-y-4 py-12 md:py-16 lg:py-20"
+    >
+      <aside class="text-white flex flex-col gap-5">
+        <div class="flex items-center gap-2">
+          <div class="bg-[#ABEF5F] rounded-full p-1 w-fit">
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 text-black p-1 rounded-full"
+            ></i>
+          </div>
+          <h1 class="text-3xl font-black">Rinterio</h1>
+        </div>
+        <p class="text-gray-400 font-medium leading-6 w-3/4">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <ul
+          class="flex flex-col gap-6 sm:flex-row sm:w-4/5 sm:justify-between sm:gap-0 sm:my-6"
+        >
+          <li class="md:hover:text-white cursor-pointer text-[#E9E9E9]">
+            <a>Home</a>
+          </li>
+          <li class="md:hover:text-white cursor-pointer text-[#E9E9E9]">
+            <a>Services</a>
+          </li>
+          <li class="md:hover:text-white cursor-pointer text-[#E9E9E9]">
+            <a>Portfolio</a>
+          </li>
+          <li class="md:hover:text-white cursor-pointer text-[#E9E9E9]">
+            <a>Blogs</a>
+          </li>
+          <li class="md:hover:text-white cursor-pointer text-[#E9E9E9]">
+            <a>Contact Us</a>
+          </li>
+        </ul>
+        <div
+          class="flex justify-center items-center gap-3 bg-[#ABEF5F] rounded-full px-4 py-2 mt-4"
+        >
+          <button class="text-xl font-bold text-black">Book Consult</button>
+          <div
+            class="flex items-center justify-center w-7 h-7 rounded-full bg-[#1C1C1C]"
+          >
+            <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+          </div>
+        </div>
+      </aside>
+    </footer>
   </body>
 </html>
